@@ -340,7 +340,7 @@ class SIPUAHelper extends EventManager {
       'rtcConstraints': <String, dynamic>{
         'mandatory': <dynamic, dynamic>{},
         'optional': <Map<String, dynamic>>[
-          <String, dynamic>{'DtlsSrtpKeyAgreement': true},
+          <String, dynamic>{'DtlsSrtpKeyAgreement': false},
         ],
       },
       'sessionTimersExpires': 120
